@@ -452,7 +452,7 @@ import UIKit
         
         return CGRect(x: x + indicatorViewInset,
                       y: indicatorViewInset,
-                      width: elementWidth,
+                      width: elementWidth - segmentPadding,
                       height: height - totalInsetSize)
     }
     
